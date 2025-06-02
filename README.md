@@ -2,7 +2,7 @@
 
 ## dataset
 
-### LOL datasetshttps://github.com/Wyyff993/SNA-NET/blob/main/README.md
+### LOL datasets
 The directory of LOL-v2-real should contain Real_captured/Train and Real_captured/Test.
 
 The directory of LOL-v2-synthetic should contain Synthetic/Train and Synthetic/Test.
