@@ -6,3 +6,6 @@
 The directory of LOL-v2-real should contain Real_captured/Train and Real_captured/Test.
 
 The directory of LOL-v2-synthetic should contain Synthetic/Train and Synthetic/Test.
+
+
+##The complete model code will be made publicly accessible later.
