@@ -14,7 +14,7 @@ from models.archs.transformer.Models import Encoder_patch66
 class low_light_transformer(nn.Module):
     def __init__(self, nf=48, nframes=5, groups=8, front_RBs=5, back_RBs=10, center=None,
                  predeblur=False, HR_in=False, w_TSA=True,
-                 num_blocks = [4,6,6,8],
+                 num_blocks = [2,4,6,8],
                  heads = [1,2,4,8],
                  ffn_expansion_factor = 2):
         super(low_light_transformer, self).__init__()
