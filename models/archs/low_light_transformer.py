@@ -71,7 +71,7 @@ class low_light_transformer(nn.Module):
 
     def forward(self, x, mask=None):
         x_center = x
-        t = 0.5  #0-1
+        t = 0.5  #0 - 1
         mask_t = F.interpolate(mask, size=[self.nf, self.nf], mode='nearest')
         mask_t[mask_t <= t] = 0.0
 
