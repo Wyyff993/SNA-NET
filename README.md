@@ -12,6 +12,7 @@ The evaluation setting could follow the following descriptions:
 randomly select 12 scenes from indoor subset and take others as the training data. The performance on indoor scene is computed on the first 30 frames in each of this 12 scenes, i.e., 360 frames.
 
 The arrangement of the dataset is
+
 --indoor
 ----GT (the videos under normal light)
 --------pair1
